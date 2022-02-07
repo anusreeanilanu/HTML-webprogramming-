@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div onmouseover="change()" onmouseout="normal()" id="image">
+    <img src="C:\Users\Admin\Pictures\Landscape-Color.jpg" height="300" width="500">
+    <h5>How to change the content</h5>
+    </div>
+    <script>
+        function change()
+        {
+            var i=`<img src='ZiClJf-1920w.jpg' height='300' width='500'>`;
+            var h=`<h5>How to change the content</h5>`;
+            image.innerHTML=i+h;
+
+        }
+        function normal()
+        {
+            var i= `<img src="Landscape-Color.jpg" height="300" width="500">`;
+            var h=`<h5>How to change the content</h5>`;
+            image.innerHTML=i+h;
+            
+        }
+
+    </script>
+</body>
+</html>
